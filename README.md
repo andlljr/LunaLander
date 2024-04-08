@@ -17,4 +17,15 @@ Para a atividade foi elaborado uma classe DQN onde irá realizar todas as etapas
 
 Neste gráfico percebe-se que os hiperparâmetros devem ser ajustados, pois as recompensas estão variando muito, ele atinge um patamar bom e logo em seguida cai, algums das melhoras pode ser rodar mais episódios para ver se o modelo irá continuar esse comportamento ou irá maximizar a recompensa, lembrando que o gráfico mostra o total de recompensa por episódio. O intuito de fazer alterações é fazer com que a recompensa esteja sempre no patamar mais alto.
 
-![RecompensaEpisodio]('./RecompensaEpisodio.png')
+Os seguintes hiperparâmetros foram utilizados para a elaboração do primeiro teste:
+* learning_rate = 0.001
+* gamma = 0.99
+* epsilon = 1.0
+* epsilon_decay = 0.005
+* max_step = 1000
+* batch_size = 32
+* total_steps = 0
+* episodes = 50
+
+Neste teste 1 não podemos considerar como uma boa solução, pois a recompensa não chegou nem a 200, todas as recompensas estão negativas.
+![RecompensaEpisodio](1-RecompensaEpisodio.png)
