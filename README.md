@@ -16,3 +16,5 @@ Para a atividade foi elaborado uma classe DQN onde irá realizar todas as etapas
 ## Resultados
 
 Neste gráfico percebe-se que os hiperparâmetros devem ser ajustados, pois as recompensas estão variando muito, ele atinge um patamar bom e logo em seguida cai, algums das melhoras pode ser rodar mais episódios para ver se o modelo irá continuar esse comportamento ou irá maximizar a recompensa, lembrando que o gráfico mostra o total de recompensa por episódio. O intuito de fazer alterações é fazer com que a recompensa esteja sempre no patamar mais alto.
+
+![RecompensaEpisodio]('./RecompensaEpisodio.png')
