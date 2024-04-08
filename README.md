@@ -27,5 +27,7 @@ Os seguintes hiperparâmetros foram utilizados para a elaboração do primeiro t
 * total_steps = 0
 * episodes = 50
 
-Neste teste 1 não podemos considerar como uma boa solução, pois a recompensa não chegou nem a 200, todas as recompensas estão negativas.
+Neste teste 1 não podemos considerar como uma boa solução, pois a recompensa não chegou nem a 200, todas as recompensas são negativas.
+
 ![RecompensaEpisodio](1-RecompensaEpisodio.png)
+
